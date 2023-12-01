@@ -1,0 +1,374 @@
+@import url(/assets/fonts/qanelas-cufonfonts-webfont/qanelas.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Qanelas Bold";
+}
+
+body {
+  background-color: rgba(255, 255, 255, 1);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hidden {
+  display: none !important;
+}
+.round-shape-container {
+  margin-top: -55px;
+  width: 80px;
+  height: 80px;
+
+  background-color: #d8d8d8;
+  border-radius: 50%;
+}
+.seat-logo-container {
+  margin-top: 40px;
+  width: 107px;
+  height: 61px;
+}
+.seat-logo-container img {
+  width: 100%;
+}
+nav {
+  margin-top: 75px;
+}
+.navbar-container {
+  width: 466px;
+  height: 33px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-text-container {
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navbar-text-container li {
+  list-style: none;
+  font-size: 14px;
+  text-align: center;
+  opacity: 20%;
+  letter-spacing: 0.99px;
+  line-height: 17px;
+  font-weight: 700;
+}
+.navbar-text-container a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+.navbar-selected {
+  opacity: 1 !important;
+}
+.selected-sign {
+  width: 14px;
+  height: 4px;
+
+  background-color: #000000;
+}
+
+.sections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+}
+.models-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.models-container div {
+  margin-top: 20px;
+  width: 507px;
+  height: 519px;
+}
+
+.selected-model-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 5.7%);
+  border-radius: 100%;
+}
+.selected-model-container object {
+  width: 33px;
+  height: 33px;
+  margin-left: 300px;
+}
+.selected-model-container h1 {
+  width: 314px;
+  height: 174px;
+  font-family: "Qanelas Bold";
+  font-size: 139px;
+  font-weight: 800;
+  line-height: 174px;
+  letter-spacing: -6.47999906539917px;
+  text-align: center;
+  z-index: -1;
+  opacity: 8.64%;
+  margin-top: 72px;
+  margin-bottom: 32px;
+}
+
+.selected-model-container img {
+  width: 440.64px;
+  height: 200.16px;
+  margin-top: -144px;
+}
+
+.selected-model-container p {
+  width: 140px;
+  height: 47px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-wrap: wrap;
+}
+.selected-model-container p span {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.model-select-button {
+  border-radius: 23px;
+  width: 84px;
+  height: 33px;
+  flex-shrink: 0;
+  background-color: #181818;
+  padding: 0px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 2.5px;
+}
+
+.unselected-model-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unselected-model-container img {
+  margin-top: 87px;
+  opacity: 17.95%;
+}
+
+.total-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 900px;
+  height: 100px;
+  border-radius: 11px;
+  background: #fff;
+  box-shadow: 0px 2px 70px 0px rgba(0, 0, 0, 0.07);
+  margin-top: 40px;
+}
+.total-price-container button {
+  height: 100%;
+  width: 235px;
+  border-radius: 0px 11px 11px 0px;
+  background-color: #181818;
+}
+
+.divider {
+  width: 1px;
+  height: 51px;
+  stroke-width: 1px;
+  background-color: rgba(151, 151, 151, 1);
+
+  opacity: 0.2;
+}
+.car-container {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 36px;
+}
+
+.car-picture-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-text-container {
+  margin-bottom: 12px;
+
+  width: 64px;
+  height: 25px;
+  background: #181818;
+  border-radius: 15.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-text-container p {
+  margin: 0;
+  padding: 0;
+  padding-left: 8px;
+  color: #fff;
+  text-align: center;
+  font-size: 9px;
+  font-family: "Qanelas Bold";
+  font-weight: 800;
+  letter-spacing: 7px;
+}
+.car-img-container {
+  padding-bottom: 36px;
+}
+.car-img-container {
+  transform: scalex(-1);
+}
+.car-price-container {
+  width: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.car-price-container h5 {
+  color: #1c1c1c;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.709px;
+}
+#colors-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.786px;
+}
+
+#colors-button svg {
+  width: 17px;
+  height: 17px;
+}
+.car-price-container p {
+  font-family: "Qanelas Regular";
+  color: #1c1c1c;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.colors-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 900px;
+  flex-direction: column;
+}
+
+.colors-container p {
+  font-family: "Qanelas Regular";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+}
+.colors-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.colors-section-content h1 {
+  font-family: "Qanelas Bold";
+  font-size: 347px;
+  font-weight: 800;
+  line-height: 436px;
+  letter-spacing: -16.19999885559082px;
+  text-align: center;
+  opacity: 0.09;
+}
+
+.colors-car-img-container {
+  margin-top: -280px;
+}
+
+.colors-car-img-container img {
+  width: 550.8px;
+  height: 250.2px;
+  flex-shrink: 0;
+}
+
+.color-switch-buttons-container {
+  width: 120px;
+  height: 60px;
+}
+.color-switch-buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* input[name="color-selection-button"]::after {
+  width: 43px;
+  height: 43px;
+}
+input[name="color-selection-button"]:checked::after {
+} */
+.accessories-section-container {
+  display: flex;
+}
+.accessories-description-container {
+  width: 224px;
+}
+.accessories-description-text {
+  color: #1c1c1c;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.accessories-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 950px;
+  height: 500px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+.accessory-container {
+  width: 300px;
+  height: 283px;
+  border-radius: 11px;
+  border: 1px solid #6a6a6a;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+
+    <title>SEAT</title>
+  </head>
+  <body>
+    <header>
+      <div class="round-shape-container"></div>
+      <div class="seat-logo-container">
+        <img src="/assets/images/logo.png" alt="" />
+      </div>
+      <nav>
+        <ul class="navbar-container">
+          <li class="navbar-text-container">
+            <a href="#" class="navbar-clickable-content navbar-selected"
+              >MODELS</a
+            >
+            <div class="selected-sign"></div>
+          </li>
+          <li class="navbar-text-container">
+            <a class="navbar-clickable-content">COLORS</a>
+            <div class="selected-sign hidden"></div>
+          </li>
+          <li class="navbar-text-container">
+            <a class="navbar-clickable-content">ACCESSORIES</a>
+            <div class="selected-sign hidden"></div>
+          </li>
+          <li class="navbar-text-container">
+            <a class="navbar-clickable-content">SUMMARY</a>
+            <div class="selected-sign hidden"></div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hidden sections" id="models-section">
+      <div class="container models-container">
+        <div class="selected-model-container">
+          <object data="/assets/icons/checkbox.svg" type=""></object>
+          <h1>IBIZA</h1>
+          <img src="/assets/images/ibiza.png" alt="" />
+          <p><span>193.500 TL</span> ‘den başlayan fiyatlarla</p>
+          <button class="model-select-button btn btn-dark">SELECT</button>
+        </div>
+        <div class="unselected-model-container">
+          <img src="/assets/images/arona.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="sections hidden" id="colors-section">
+      <div class="container colors-container">
+        <p>Hayalindeki araca dair rengini seç, tarzını hemen yansıt</p>
+        <div class="colors-section-content">
+          <h1>IBIZA</h1>
+          <div class="colors-car-img-container">
+            <img src="/assets/images/ibiza.png" alt="" />
+          </div>
+        </div>
+        <div class="color-switch-buttons-container">
+          <input
+            type="radio"
+            id="html"
+            name="color-selection-button"
+            value="red"
+          />
+           
+          <input
+            type="radio"
+            id="css"
+            name="color-selection-button"
+            value="black"
+          />
+           
+          <input
+            type="radio"
+            id="javascript"
+            name="color-selection-button"
+            value="grey"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="sections" id="accessories-section">
+      <div class="accessories-section-container">
+        <div class="accessories-description-container">
+          <p class="accessories-description-text">
+            Seçtiğin araca ait özellikler, konforun ve yaşam stilini belirler.
+          </p>
+        </div>
+        <div class="accessories-container">
+          <div class="accessory-container">
+            <div class="accessory-name">
+              <p>SEAT FREE SYNC PACK EASY JET</p>
+            </div>
+            <div class="accessory-price">
+              <p>7.500 TL</p>
+            </div>
+            <div class="checkmark-container">x</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container total-price-container">
+      <div class="car-container">
+        <div class="car-picture-conatiner">
+          <div class="new-text-container">
+            <p>NEW</p>
+          </div>
+          <div class="car-img-container">
+            <img
+              src="/assets/images/ibiza.png"
+              alt=""
+              style="width: 110px; height: 50px"
+            />
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="car-price-container">
+          <h5>TOTAL</h5>
+          <p>193.500 TL</p>
+        </div>
+      </div>
+      <button id="colors-button" class="btn btn-dark">
+        COLORS
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          viewBox="0 0 25 25"
+          fill="none"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M16.5677 5.4984C16.2911 5.77492 16.2911 6.22361 16.5677 6.50014L21.8445 11.777L1.51638 11.7771C1.12508 11.777 0.808115 12.094 0.808157 12.4853C0.808115 12.8766 1.12508 13.1936 1.51638 13.1935L21.8445 13.1936L16.5677 18.4704C16.2911 18.747 16.2911 19.1957 16.5677 19.4722C16.8442 19.7487 17.2929 19.7487 17.5694 19.4722L23.5545 13.487C24.1069 12.9347 24.1069 12.0359 23.5545 11.4836L17.5694 5.4984C17.2927 5.22175 16.8442 5.22188 16.5677 5.4984Z"
+            fill="white"
+          />
+        </svg>
+      </button>
+    </div>
+    <script src="/src/main.js"></script>
+  </body>
+</html>

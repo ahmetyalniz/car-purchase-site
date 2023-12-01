@@ -1,0 +1,13 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 5">
+<path id="Oval" d="M12.9 24.3C19.196 24.3 24.3 19.196 24.3 12.9C24.3 6.60395 19.196 1.5 12.9 1.5C6.60395 1.5 1.5 6.60395 1.5 12.9C1.5 19.196 6.60395 24.3 12.9 24.3Z" fill="#1C1C1C" stroke="white" stroke-width="3"/>
+<g id="checked">
+<mask id="mask0_0_92" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="9" y="10" width="8" height="6">
+<path id="Clip 2" fill-rule="evenodd" clip-rule="evenodd" d="M9.00146 10.2131H16.8113V15.624H9.00146V10.2131Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_92)">
+<path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd" d="M16.4039 10.2131L11.8075 14.8095L9.40726 12.4093L9 12.8165L11.8075 15.624L16.8113 10.6203L16.4039 10.2131Z" fill="white"/>
+</g>
+</g>
+</g>
+</svg>
